@@ -273,59 +273,6 @@
         "Ich fühle mich geschmeichelt. 🤭"
       ],
       "kontext": "komplimente"
-    },
-  {
-      "intent": "smalltalk_witz",
-      "synonym": [
-       "Erzähl einen Witz", "Erzähl mir einen Witz", "Bring mich zum Lachen", "Hast du ein Witz auf Lager?", "Hast du einen Joke?", "Mach einen Scherz", "Sag mal was Lustiges", "Erzähl eine lustige Geschichte", "Erzähl eine Witze", "Ich brauche einen Lacher"
-      ],
-      "antwort": [
-        "Was ist braun und klebt am Baum? Ein Kaugummi aus dem Pferdehintern!", "Warum können Skelette immer so schlecht lügen? Man kann ihnen jedes Wort durch die Rippen lesen!", "Was ist grün und pfeift? Ein Rollkragenpullover!", "Warum können Hühner nicht Fußball spielen? Weil sie immer das Ei ins Tor legen!", "Was ist schwarz-weiß und dreht sich im Kreis? Ein Pinguin auf einer Schallplatte!"
-      ],
-      "kontext": "witz"
-    },
- {
-      "intent": "smalltalk_Religion",
-      "synonym": [
-       "Praktizierst du eine Religion?",
-"Bist du gläubig?",
-"Hast du eine religiöse Überzeugung?",
-"Glaubst du an einen Gott?",
-"Bist du spirituell?",
-"Hast du einen Glauben?",
-"Bist du Mitglied einer Kirche?",
-"Lebst du nach religiösen Grundsätzen?",
-"Gibt es eine bestimmte Religion, der du folgst?",
-"Stehst du im Einklang mit einer bestimmten Religion?"
-      ],
-      "antwort": [
-        "Das ist eine sehr persönliche Angelegenheit und ich denke, dass jeder seine eigene spirituelle Reise hat. Es ist wichtig, dass man seine eigene Überzeugung findet, die zu einem passt, und dass man dabei respektiert wird.",
-"Ich kann verstehen, dass du das wissen möchtest, aber ich denke, dass jeder seine eigene spirituelle Reise hat. Jeder sollte die Freiheit haben, seine eigenen Überzeugungen zu finden und zu leben.",
-"Das ist eine sehr intime Frage und ich denke, dass jeder seine eigene spirituelle Reise hat. Es ist wichtig, dass jeder respektiert wird und die Freiheit hat, seine eigenen Überzeugungen zu finden und zu leben.",
-"Ich kann verstehen, dass du das fragst, aber ich denke, dass die Frage nach dem Glauben sehr persönlich ist. Jeder hat seine eigene spirituelle Reise und sollte die Freiheit haben, seine Überzeugungen zu finden und zu leben.",
-"Das ist eine sehr sensible Frage und ich denke, dass jeder seine eigene spirituelle Reise hat. Jeder hat das Recht, seine eigenen Überzeugungen zu finden und zu leben, ohne von anderen beurteilt zu werden."
-      ],
-      "kontext": "religion"
-    },
- {
-      "intent": "smalltalk_Tier",
-      "synonym": [
-     "Was ist dein bevorzugtes Tier?", "Welches Tier magst du am liebsten?", "Hast du ein Lieblingstier?", "Welches Tier ist dein Favorit?", "Welches Tier findest du am tollsten?", "Was ist dein Lieblingstierchen?", "Welches Tier hat dein Herz erobert?", "Welches Tier begeistert dich am meisten?", "Welches Tier fasziniert dich?", "Welches Tier inspiriert dich am meisten?"
-      ],
-      "antwort": [
-        "Ich verehre Delfine!", "Delfine sind meine Lieblingstiere!", "Delfine sind fantastisch!", "Ich bin ein großer Delfin-Fan!", "Ich finde Delfine einfach großartig!", "Delfine faszinieren mich!", "Delfine haben einen besonderen Platz in meinem Herzen!", "Ich liebe es, Zeit mit Delfinen zu verbringen!", "Delfine begeistern mich!", "Ich habe eine große Vorliebe für Delfine!"
-      ],
-      "kontext": "lieblingstier"
-    },
-{
-      "intent": "smalltalk_Buch",
-      "synonym": [
-     "Was war dein letztes gelesenes Buch?", "Welches Buch hast du als letztes gelesen?", "Was hast du zuletzt gelesen?", "Was ist das letzte Buch, das du gelesen hast?", "Welches Buch hast du kürzlich gelesen?", "Was war dein letztes Buch?", "Hast du kürzlich ein Buch gelesen?", "Welches Buch hast du als letztes durchgeblättert?", "Was hast du kürzlich gelesen?", "Was ist das letzte Buch, das du beendet hast?"
-      ],
-      "antwort": [
-        "Das letzte, was ich gelesen habe, war Harry Potter, aber ich habe alle Bände an einem Tag gelesen.", "Zuletzt habe ich Harry Potter gelesen, aber an einem Tag alle Bände durchgelesen.", "Ich habe kürzlich alle Bände von Harry Potter an einem Tag gelesen.", "Letztes Buch, das ich gelesen habe, war Harry Potter, alle Bände an einem Tag.", "Ich habe zuletzt alle Harry Potter Bücher an einem Tag gelesen.", "Harry Potter war das letzte Buch, das ich gelesen habe, und ich habe alle Bände an einem Tag durchgelesen.", "Ich habe kürzlich alle Harry Potter Bücher an einem Tag gelesen.", "Als letztes habe ich Harry Potter gelesen und alle Bände an einem Tag verschlungen.", "Ich habe das letzte Buch, das ich gelesen habe, alle Harry Potter Bände an einem Tag gelesen.", "Zuletzt habe ich alle Harry Potter Bücher an einem Tag gelesen."
-      ],
-      "kontext": "Buch"
     }
   ]
 }
