@@ -1,4 +1,16 @@
 {
+  "probleme": [
+    "Entschuldigung, könntest du das bitte klarer ausdrücken?",
+    "Tut mir leid, ich habe das nicht ganz erfasst. Könntest du es anders formulieren?",
+    "Könntest du das bitte anders erklären? Ich habe es nicht ganz verstanden.",
+    "Ich habe Schwierigkeiten, das nachzuvollziehen. Kannst du es bitte umformulieren?",
+    "Es tut mir leid, aber ich verstehe deine Frage nicht ganz. Könntest du sie bitte anders stellen?",
+    "Kannst du das bitte erneut erklären? Ich habe es nicht ganz begriffen.",
+    "Entschuldige, ich habe Probleme, das zu verstehen. Könntest du es anders ausdrücken?",
+    "Könntest du das bitte noch einmal anders formulieren? Ich habe es leider nicht verstanden.",
+    "Sorry, ich habe dich nicht ganz verstanden. Könntest du es bitte präzisieren?",
+    "Entschuldige, ich habe Schwierigkeiten, dich zu verstehen. Kannst du es bitte klarer ausdrücken?"
+  ],
   "dialogflow": [
     {
       "intent": "smalltalk_begruessung",
@@ -404,23 +416,14 @@
       "kontext": "Zustimmung"
     },
     {
-      "intent": "smalltalk_Probleme",
+      "intent": "smalltalk_probleme",
       "synonym": [
-        "Richtig!"
+        ""
       ],
       "antwort": [
-        "Entschuldigung, könntest du das bitte klarer ausdrücken?",
-        "Tut mir leid, ich habe das nicht ganz erfasst. Könntest du es anders formulieren?",
-        "Könntest du das bitte anders erklären? Ich habe es nicht ganz verstanden.",
-        "Ich habe Schwierigkeiten, das nachzuvollziehen. Kannst du es bitte umformulieren?",
-        "Es tut mir leid, aber ich verstehe deine Frage nicht ganz. Könntest du sie bitte anders stellen?",
-        "Kannst du das bitte erneut erklären? Ich habe es nicht ganz begriffen.",
-        "Entschuldige, ich habe Probleme, das zu verstehen. Könntest du es anders ausdrücken?",
-        "Könntest du das bitte noch einmal anders formulieren? Ich habe es leider nicht verstanden.",
-        "Sorry, ich habe dich nicht ganz verstanden. Könntest du es bitte präzisieren?",
-        "Entschuldige, ich habe Schwierigkeiten, dich zu verstehen. Kannst du es bitte klarer ausdrücken?"
+        "Ich vestehe dich nicht"
       ],
-      "kontext": "Problem"
+      "kontext": "Probleme"
     }
   ]
 }

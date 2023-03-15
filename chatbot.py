@@ -111,7 +111,7 @@ net = tflearn.regression(net)
 # Definiere das Modell und konfiguriere tensorboard
 model = tflearn.DNN(net, tensorboard_dir=getPath('train_logs'))
 # Starte das training des Modells
-model.fit(train_x, train_y, n_epoch=200, batch_size=16, show_metric=True)
+model.fit(train_x, train_y, n_epoch=200, batch_size=64, show_metric=True)
 # Speichere das trainirte Modell
 model.save(getPath('model.tflearn'))
 
@@ -186,8 +186,11 @@ def chat():
         for tg in dialogflow['dialogflow']:
 
             if tg['intent'] == results[0][0]:
-                antwort = tg['antwort']
-                print("Bot:" + random.choice(antwort))
+                if results[0][1] > 0.22:
+                    antwort = tg['antwort']
+                    print("Bot: " + random.choice(antwort))
+                else:
+                    print("Bot: " + random.choice(dialogflow['probleme']))
 
 
 chat()
