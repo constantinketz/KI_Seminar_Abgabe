@@ -1,3 +1,16 @@
+"""
+Abgabe von:
+    Lukas Kleinert
+    Alexandra Weigel
+    Malte Neumann
+    Constantin Ketz
+    Moritz Kenk
+    Rommy
+    Daniel Junginger
+    Timo Rahel
+"""
+
+
 import json
 import inspect
 import os
