@@ -182,7 +182,6 @@ def chat():
 
     # Porbability of correct response
         results = klassifizieren(inp)
-        print(results)
         for tg in dialogflow['dialogflow']:
 
             if tg['intent'] == results[0][0]:
