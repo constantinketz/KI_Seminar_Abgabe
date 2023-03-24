@@ -5,7 +5,7 @@ Abgabe von:
     Malte Neumann
     Constantin Ketz
     Moritz Kenk
-    Rommy
+    Romy Glück
     Daniel Junginger
     Timo Rahel
 """
@@ -44,7 +44,7 @@ words = []
 classes = []
 documents = []
 stop = stopwords.words('german')
-ignore_words = ['?', '.', ','] + stop
+ignore_words = ['?', '.', ',', '!'] + stop
 # loop durch jeden Satz in unseren dialogflow und synonym
 for dialog in dialogflow['dialogflow']:
     for pattern in dialog['synonym']:

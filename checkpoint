@@ -1,2 +1,2 @@
-model_checkpoint_path: "c:/Users/lklkl/Documents/Ki-seminar/KI_Seminar_Abgabe/model.tflearn"
-all_model_checkpoint_paths: "c:/Users/lklkl/Documents/Ki-seminar/KI_Seminar_Abgabe/model.tflearn"
+model_checkpoint_path: "/home/kryptargon/Documents/playground/KI_Seminar_Abgabe/model.tflearn"
+all_model_checkpoint_paths: "/home/kryptargon/Documents/playground/KI_Seminar_Abgabe/model.tflearn"
